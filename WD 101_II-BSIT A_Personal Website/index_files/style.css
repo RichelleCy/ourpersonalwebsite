@@ -1,0 +1,149 @@
+* {    
+    padding: 0;    
+    margin: 0;
+}
+.pagi {
+    margin-left: auto;
+    margin-right: auto;
+    height: 75px;}
+
+.texts {
+    margin-left: 114px;
+    margin-right: 114px;
+    top: 165px;
+    position: relative;
+    color: white;
+}
+@media (max-width: 787px) {
+    .pagi {
+        position: sticky;
+        top: 623px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .home {
+        /* height: 10px; */
+        /* position:relative; */
+    }
+}
+@media (max-width: 400px) {
+    .cards {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-wrap: nowrap;
+        margin-top: -158px;
+    }
+    .card {
+        top: 100px;
+    }
+    .circlepfp {
+        margin-top: 390px;
+    }
+    .home {
+        height: 900px;
+    }
+    .texts {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+}
+h2 {
+    text-align: center;
+    color: white;
+    position: relative;
+    top: 330px;
+    font-size: 30px;
+}
+
+h2#jasminetext {
+    color: white;
+}
+
+.cards {
+    bottom: 0px;
+    top: 107px;
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.card {
+    width: 305px;
+    height: 305px;
+    border-radius: 530px;
+    position: relative;
+    margin: 47px;
+    margin-block-end: -500px;
+    transition: transform .2s ease;
+}
+.card:hover {
+    transform: translateY(-21px);
+}
+#richelle {
+    background-image: url(rich.jpg);
+    background-position-x: -309px;
+    background-position-y: -6px;
+    background-size: 308px;
+}
+#trisha {
+    background-image: url(trish.jpg);
+    background-position-x: -309px;
+    background-position-y: -153px;
+    background-size: 308px;
+}
+#jasmine {
+    background-image: url(jasm.jpg);
+    background-position-x: -309px;
+    background-position-y: -40px;
+    background-size: 307px;
+}
+p {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.home {
+    margin-left: 31px;
+    margin-right: 31px;
+}
+body {
+    height: 689px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-image: url(mainbg.jpg);
+    background-size: cover;
+}
+@font-face {
+    font-family: myFirstFont;
+    src: url(raleway.ttf);
+}
+body {
+    font-family: myFirstFont;
+    color: white;
+}
+.navbar {
+    background-color: #000d32;
+    padding: 20px;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+}
+li {
+    text-decoration: none;
+    list-style: none;
+    display: inline;
+    margin-left: 72px;
+    margin-right: 72px;
+    position: relative;
+    justify-content: space-between;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.circlepfp {}

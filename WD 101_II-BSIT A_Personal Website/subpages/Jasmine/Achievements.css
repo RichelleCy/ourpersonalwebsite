@@ -1,0 +1,42 @@
+body{
+     background-color:antiquewhite;
+    text-align: left;
+    color: rgb(35, 37, 37);
+}
+section{
+    color: black;
+    text-align: left;
+}
+
+ul li{
+    text-align: left;
+    
+}
+.pagi {
+    /* margin-left: auto; */
+    /* margin-right: auto; */
+    height: 75px;
+    height: 75px;
+    display: flex;
+    justify-content: center;
+    }
+
+.texts {
+    margin-left: 214px;
+    margin-right: 214px;
+    top: 165px;
+    position: relative;
+    color: white;
+}
+@media (max-width: 787px) {
+    .pagi {
+        position: sticky;
+        top: 623px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .home {
+        /* height: 10px; */
+        /* position:relative; */
+    }
+}

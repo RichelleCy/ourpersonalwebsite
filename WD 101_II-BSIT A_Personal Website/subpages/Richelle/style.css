@@ -1,0 +1,296 @@
+* {    
+    padding: 0;    
+    margin: 0;
+}
+
+.richelle-educational-background-school-logos {
+    position: absolute;
+    top: 371px;
+    width: 69%;
+    margin-left: 200px;
+    margin-right: 200px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.ccontainer {
+    position: relative;
+    top: 125px;
+    background-color: rgba(0,0,0,50%);
+    padding: 42px;
+    display: block;
+    border-radius: 45px;
+}
+
+.images {
+    display: flex;
+    align-items: baseline;
+    position: relative;
+    justify-content: space-evenly;
+    top: 19px;
+}
+
+img {
+    width: 20%;
+    margin-bottom: 16px;
+}
+
+img#richebglogos {
+    border-radius: 122px;
+    width: 18%;
+    margin-right: 4px;
+    margin-left: 10px;
+}
+
+.pagi {
+    margin-left: 200px;
+    margin-right: 200px;
+    height: 75px;
+    }
+
+.texts {
+    /* margin-left: 214px; */
+    /* margin-right: 214px; */
+    top: 165px;
+    position: relative;
+    color: white;
+}
+
+video#hobby2bg {
+    width: 100%;
+    position: relative;
+    z-index: -1000;
+    top: -69px;
+}
+
+h1#centered-title {
+    position: relative;
+    left: 0px;
+    text-align: center;
+    top: 120px;
+}
+
+h2 {
+    text-align: center;
+    color: black;
+    position: relative;
+    top: 241px;
+    font-size: 30px;
+}
+
+.cards {
+    position: relative;
+    top: 303px;
+    margin: 25px;
+    margin-left: 78px;
+    margin-right: 78px;
+    display: flex;
+}
+
+.card {
+    background-color: white;
+    width: 305px;
+    height: 358px;
+    border-radius: 53px;
+    position: relative;
+    margin: 47px;
+    margin-block-end: -500px;
+    transition: transform .2s ease;
+}
+.card:hover {
+    transform: translateY(-21px);
+}
+
+p {
+    /* padding-left: 15px; */
+    /* padding-right: 15px; */
+    /* margin-left: auto; */
+    /* margin-right: auto; */
+    /* text-align: center; */
+}
+#centered-text-2 {
+    position: relative;
+    top: 122px;
+    text-align: center;
+    width: 100%;
+    right: unset;
+}
+
+#text-align-left {
+    text-align: left;
+    left: 160px;
+}
+
+p#centered-text {
+    text-align: center;
+    position: relative;
+    margin-left: 15px;
+    margin-right: 15px;
+    line-height: 30px;
+}
+
+h1 {
+    position: relative;
+    top: 214px;
+    right: 210px;
+    text-align: right;
+    font-size: 58px;
+}
+
+#title-align-left {
+    position: relative;
+    left: 160px;
+    text-align: left;
+}
+
+.home {
+    padding-left: 112px;
+    padding-right: 112px;
+    height: 589px;
+}
+.home2 {
+    height: 665px;
+    background-image: url(ebbg.jpg);
+    background-size: 1366px;
+}
+.home3 {
+    height: 665px;
+    background-image: url(hobby1bg.png);
+    backgground-size: 1366px;
+}
+@font-face {
+    font-family: myFirstFont;
+    src: url(raleway.ttf);
+}
+body {
+    font-family: myFirstFont;
+    color: white;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.navbar {
+    background-color: #000d32;
+    padding: 20px;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+}
+li {
+    text-decoration: none;
+    list-style: none;
+    display: inline;
+    padding-left: 72px;
+    padding-right: 72px;
+    position: relative;
+    left: 182px;
+}
+#page {
+    text-decoration: none;
+    list-style: none;
+    position: relative;
+    top: 18px;
+    left: 30px;
+    padding-left: 18px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 18px;
+    border-color: black;
+    border: solid;
+    border-radius: 10px;
+    border-width: 1px;
+    font-weight: 900;
+}
+#grayout {
+    text-decoration: none;
+    list-style: none;
+    position: relative;
+    top: 18px;
+    left: 30px;
+    padding-left: 18px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 18px;
+    border-color: black;
+    color: #5c5c5c;
+    border: solid;
+    border-radius: 10px;
+    border-width: 1px;
+    font-weight: 900;
+}
+#selected {
+    text-decoration: none;
+    list-style: none;
+    position: relative;
+    top: 18px;
+    left: 30px;
+    padding-left: 18px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 18px;
+    border-color: black;
+    color: #189fff;
+    border: solid;
+    border-radius: 10px;
+    border-width: 1px;
+    font-weight: 900;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+@media (max-width: 787px) {
+    .pagi {
+        position: sticky;
+        top: 623px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .home {
+        /* height: 10px; */
+        /* position:relative; */
+    }
+}
+@media (max-width: 728px) {
+    .richelle-educational-background-school-logos {
+        display: flex;
+        justify-content: flex-start;
+        width: 52%;
+        top: 431px;
+        margin-left: 127px;
+        margin-right: 127px;
+    }
+}
+@media (max-width: 460px) {
+    img#richebglogos {
+    width: 89px;
+    }
+    .home {
+    padding: 0px;
+    }
+    .ccontainer {
+        position: absolute;
+        margin: 10px;
+        height: 228%;
+    }
+    .richelle-educational-background-school-logos {
+        position: absolute;
+        width: 63%;
+        display: flex;
+        justify-content: flex-end;
+        left: -25px;
+        top: 475px;
+    }
+    .images {
+        display: flex;
+        flex-direction: column;
+    }
+    #rich-works-img {
+        width: 100%;
+    }
+    .pagi {
+    position: relative;
+    top: 1000px;
+    }
+}
